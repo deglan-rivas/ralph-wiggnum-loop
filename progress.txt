@@ -15,7 +15,13 @@ ONLY DO ONE TASK AT A TIME."
    - Creado .gitignore para node_modules y dist
    - Commit: ed41a86
 
-⏳ PASO 2: Crear modelo y repositorio (PENDIENTE)
+✅ PASO 2: Crear modelo y repositorio (COMPLETADO)
+   - Creada interfaz Pokemon en src/models/pokemon.model.ts con campos: id, name, type, level
+   - Creado repositorio en src/repositories/pokemon.repository.ts con:
+     * Array en memoria con 3 pokemones iniciales (Bulbasaur, Charmander, Squirtle)
+     * Variable nextId para auto-incremento
+     * Métodos: getAll(), getById(), create(), update(), deleteById()
+   - TypeScript compila sin errores
 
 ⏳ PASO 3: Crear controladores y rutas (PENDIENTE)
 
