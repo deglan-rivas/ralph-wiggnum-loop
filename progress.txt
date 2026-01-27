@@ -23,8 +23,23 @@ ONLY DO ONE TASK AT A TIME."
      * Métodos: getAll(), getById(), create(), update(), deleteById()
    - TypeScript compila sin errores
 
-⏳ PASO 3: Crear controladores y rutas (PENDIENTE)
+✅ PASO 3: Crear controladores y rutas (COMPLETADO)
+   - Creado pokemon.controller.ts con funciones controladoras:
+     * listPokemons - retorna todos los pokemones
+     * getPokemon - retorna pokemon por ID o 404
+     * createPokemon - crea nuevo pokemon con validación, retorna 201
+     * updatePokemon - actualiza pokemon existente o retorna 404
+     * deletePokemon - elimina pokemon o retorna 404
+   - Validación básica de campos y tipos en cada controlador
+   - Manejo de errores con try-catch y responses apropiados
+   - Creado pokemon.routes.ts con definición de rutas:
+     * GET / → listPokemons
+     * GET /:id → getPokemon
+     * POST / → createPokemon
+     * PUT /:id → updatePokemon
+     * DELETE /:id → deletePokemon
+   - TypeScript compila sin errores
 
-⏳ PASO 4: Crear servidor Express (PENDIENTE)
+⏳ PASO 4: Crear servidor Express (SIGUIENTE)
 
 ⏳ PASO 5: Prueba manual de endpoints (PENDIENTE)
