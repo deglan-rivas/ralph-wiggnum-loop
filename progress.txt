@@ -1,0 +1,24 @@
+claude --permission-mode acceptEdits "@PRD.md @progress.txt \\
+1. Read the PRD and progress file. \\
+2. Find the next incomplete task and implement it. \\
+3. Commit your changes. \\
+4. Update progress.txt with what you did. \\
+ONLY DO ONE TASK AT A TIME."
+
+=== PROGRESO DEL PROYECTO ===
+
+✅ PASO 1: Setup inicial del proyecto (COMPLETADO)
+   - Creado package.json con scripts dev, build, start
+   - Creado tsconfig.json con configuración ES2022 y ESNext
+   - Creada estructura de directorios: src/models, src/repositories, src/controllers, src/routes
+   - Instaladas dependencias: express, @types/express, typescript, tsx
+   - Creado .gitignore para node_modules y dist
+   - Commit: ed41a86
+
+⏳ PASO 2: Crear modelo y repositorio (PENDIENTE)
+
+⏳ PASO 3: Crear controladores y rutas (PENDIENTE)
+
+⏳ PASO 4: Crear servidor Express (PENDIENTE)
+
+⏳ PASO 5: Prueba manual de endpoints (PENDIENTE)
